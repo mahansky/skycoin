@@ -62,7 +62,7 @@ script:
   # - make test-libpy
   - make lint-ui
   - make build-ui-travis
-  - make test-ui
+  - make test-ui 
   # Build wallets
   - if [[ "$TRAVIS_PULL_REQUEST" == false ]]; then ./ci-scripts/build-wallet.sh; fi
 
